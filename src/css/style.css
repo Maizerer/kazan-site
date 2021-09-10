@@ -1,1 +1,208 @@
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1; }
 
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s; }
+
+.intro {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+button {
+  border: none;
+  -webkit-transition: .2s;
+  -o-transition: .2s;
+  transition: .2s; }
+
+header {
+  padding: 10px 0;
+  background-color: #3BBFE0; }
+
+.header__inner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .header__inner ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-gap: 40px;
+       -moz-column-gap: 40px;
+            column-gap: 40px; }
+  .header__inner a {
+    font-size: 19px;
+    font-weight: 600;
+    color: #fff; }
+
+.logo {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .logo img {
+    height: 60px; }
+
+.intro {
+  background-image: url(../img/intro-bg.jpg);
+  height: 800px;
+  padding-top: 120px; }
+
+.intro-title {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  max-width: 824px; }
+
+.intro-subtitlee {
+  color: #fff;
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  max-width: 424px; }
+
+.parks {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.parks-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center; }
+
+.parks-list {
+  margin-top: 40px; }
+  .parks-list li {
+    font-size: 24px; }
+
+.park-items {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-column-gap: 30px;
+     -moz-column-gap: 30px;
+          column-gap: 30px;
+  row-gap: 50px; }
+
+.park-item {
+  width: 350px; }
+
+.park-img {
+  border-radius: 20px;
+  overflow: hidden; }
+  .park-img img {
+    height: 300px; }
+
+.park-desc {
+  margin-top: 10px;
+  font-size: 18px; }
+
+.attrs {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+
+.atrrs-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center; }
+
+.atr-items {
+  margin-top: 120px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 50px; }
+
+.atr-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.atr-content {
+  max-width: 500px; }
+
+.atr-name {
+  font-size: 36px;
+  font-weight: 700; }
+
+.atr-desc {
+  margin-top: 15px;
+  font-size: 18px; }
+
+.atr-img {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .atr-img img {
+    width: 500px; }
+
+.history {
+  padding-top: 80px;
+  padding-bottom: 90px; }
+
+.history-title {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center; }
+
+.history-text {
+  margin-top: 50px;
+  font-size: 20px; }
+
+table {
+  margin-top: 50px; }
+
+td {
+  font-size: 18px; }
