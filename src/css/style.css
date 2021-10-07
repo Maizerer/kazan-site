@@ -93,6 +93,10 @@ header {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+.parks__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
 .parks-title {
   font-size: 48px;
   font-weight: 700;
@@ -134,10 +138,16 @@ header {
   padding-top: 80px;
   padding-bottom: 80px; }
 
+.attrs__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
+
 .atrrs-title {
   font-size: 48px;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  max-width: 300px;
+  word-wrap: break-word; }
 
 .atr-items {
   margin-top: 120px;
@@ -191,6 +201,10 @@ header {
 .history {
   padding-top: 80px;
   padding-bottom: 90px; }
+
+.history__inner {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); }
 
 .history-title {
   font-size: 48px;

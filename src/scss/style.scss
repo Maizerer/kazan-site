@@ -81,7 +81,8 @@ header{
 }
 
 .parks__inner {
-
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .parks-title {
@@ -127,13 +128,16 @@ header{
 }
 
 .attrs__inner {
-
+display: grid;
+grid-template-columns: repeat(3, 1fr);
 }
 
 .atrrs-title {
 	font-size: 48px;
 	font-weight: 700;
 	text-align: center;
+	max-width: 300px;
+	word-wrap: break-word;
 }
 
 .atr-items {
@@ -178,7 +182,8 @@ header{
 }
 
 .history__inner {
-
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 }
 
 .history-title {
