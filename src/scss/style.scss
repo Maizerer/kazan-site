@@ -203,4 +203,15 @@ table{
 td{
 	font-size: 18px;
 }
+.flex{
+	display: flex;
+	justify-content: center;
+	column-gap: 50px;
+	color: #fff;
+	font-weight: 600;
+}
+footer{
+	background-color: #3BBFE0;
+	padding: 20px 0;
+}
 

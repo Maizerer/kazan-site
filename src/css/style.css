@@ -220,3 +220,22 @@ table {
 
 td {
   font-size: 18px; }
+
+.flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 50px;
+     -moz-column-gap: 50px;
+          column-gap: 50px;
+  color: #fff;
+  font-weight: 600; }
+
+footer {
+  background-color: #3BBFE0;
+  padding: 20px 0; }
